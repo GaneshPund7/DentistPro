@@ -17,35 +17,13 @@
         display: none;
     }
 }
+ 
+ 
 .envelope{
     color: rgb(169, 169, 209);
 }
- 
-@media  (max-width: 766px) {
-    .compName{
-        width: 160px;
-        height: 40px;   
-        }  
-        .bars{
-            margin-left: 160px;
-        } 
-}
-@media  (min-width: 766px) {
-    .compName{
-        margin-left: 100px;
-        width: 160px;
-        height: 40px;
-        }
-        .search{
-            display: none;
-        }
-}
-@media (max-width:670){
-    .compName{
-        margin-left: 100px;
-        width: 160px;
-        height: 40px;
-        }
+.compName{
+    color:  rgb(39, 39, 92);
 }
 .bookApointment {
     width: 300px;
@@ -60,6 +38,12 @@
     background: linear-gradient(to right, #3166f8, #7090fa);
 }
 
+.background-card{
+    background: linear-gradient(to right, rgb(222, 224, 252), rgb(247, 247, 248));
+}
+.background{
+    background: linear-gradient(to right, rgb(245, 245, 248), rgb(222, 224, 252));
+}
  
 .nav-link.btnhover:hover {
     color: rgb(72, 72, 185) !important;
@@ -111,24 +95,6 @@ background-color: #19284e;
   }
   .facebookIcon{
     background-color:rgb(141, 162, 214)d;
-  }
-  .sidebar {
-    width: 0;
-    overflow: hidden;
-    transition: 0.3s;
-    position: absolute;
-    top: 0;
-    left: 0;
-    background-color: #f8f6f6;
-    color: rgb(39, 35, 35);
-    border-radius: 10px;
-    position: fixed;
-    overflow: scroll;
-
-  }
-  
-  .sidebar.active {
-    width: 330px;
   }
  
 

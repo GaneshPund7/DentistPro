@@ -1,0 +1,19 @@
+.bookApointment {
+    width: 300px;
+    height: 60px;
+    background: linear-gradient(to right, #7090fa, #3166f8);
+    background-color: blue;  
+    transition: background-color 0.3s ease;
+    border-radius: 5px;
+}
+
+.bookApointment:hover {
+    background: linear-gradient(to right, #3166f8, #7090fa);
+}
+.resizable {
+    resize: both;  
+  }
+  .rounded-circle{
+    background-color: #3166f8;
+    width: 70px;
+  }
